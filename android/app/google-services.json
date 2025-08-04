@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "662081729826",
+    "firebase_url": "https://organicplants143-default-rtdb.firebaseio.com",
+    "project_id": "organicplants143",
+    "storage_bucket": "organicplants143.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662081729826:android:6db49ff6e6f8abaf37e17b",
+        "android_client_info": {
+          "package_name": "com.example.organicplants"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662081729826-gmlbqe94b2kb2st78uq7muo9mrj9ebck.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.organicplants",
+            "certificate_hash": "d3af2fa5fad8bd6da555c328b4ef461b311c0322"
+          }
+        },
+        {
+          "client_id": "662081729826-5un38p953742c2trfatm5oq2u2ksoq3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfbYeG53nOm2E0amp-XNe2SSuCdkiI8v8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662081729826-5un38p953742c2trfatm5oq2u2ksoq3a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

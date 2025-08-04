@@ -1,0 +1,19 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // A user can do anything to their own user document and its subcollections.
+    // This is required for the client-side delete to work.
+    match /users/{userId}/{document=**} {
+      allow read, write, create, delete: if request.auth != null && request.auth.uid == userId;
+    }
+         // Feedback collection - users can submit and view their own feedback
+     match /feedback/{userId} {
+       allow read, write: if request.auth != null && request.auth.uid == userId;
+     }
+     
+     // New users can create their own user document during signup.
+     match /users/{userId} {
+       allow create: if request.auth != null;
+     }
+  }
+} 

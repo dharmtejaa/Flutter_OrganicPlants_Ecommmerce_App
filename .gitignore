@@ -1,0 +1,14 @@
+# Dart/Pub
+.dart_tool/
+.packages
+.pub/
+build/
+.pub-cache/
+flutter_*.png
+
+# VS Code
+.vscode/
+
+# Others
+.idea/
+*.lock
